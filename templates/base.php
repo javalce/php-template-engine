@@ -17,9 +17,9 @@
     </head>
 
     <body>
-        <?= $this->getBlock('header'); ?>
-        <div id="content"><?= $this->getBlock('content'); ?></div>
-        <?= $this->getBlock('modals'); ?>
+        <?= $this->block('header'); ?>
+        <div id="content"><?= $this->block('content'); ?></div>
+        <?= $this->block('modals'); ?>
     </body>
 
 </html>

@@ -1,10 +1,10 @@
 <? $this->extend('base.php'); ?>
 
-<? $this->block('header'); ?>
+<? $this->start('header'); ?>
 <h1>Header</h1>
-<? $this->endblock() ?>
+<? $this->end() ?>
 
-<? $this->block('content'); ?>
+<? $this->start('content'); ?>
 <h2>PHP Template Engine</h2>
 
 <p>Hello, today's date is <?= $date ?>.</p>
@@ -12,9 +12,9 @@
 <p>Enjoy!</p>
 <h3>Learn more</h3>
 <p>Refer to the README file.</p>
-<? $this->endblock(); ?>
+<? $this->end(); ?>
 
 
-<? $this->block('modals'); ?>
+<? $this->start('modals'); ?>
 <? include 'modal.php'; ?>
-<? $this->endblock(); ?>
+<? $this->end(); ?>
