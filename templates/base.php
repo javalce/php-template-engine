@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
         <meta charset="UTF-8">
@@ -18,6 +18,7 @@
 
     <body>
         <?= $this->block('header'); ?>
+        <h2><?= _("Hola") ?></h2>
         <div id="content"><?= $this->block('content'); ?></div>
         <?= $this->block('modals'); ?>
     </body>
